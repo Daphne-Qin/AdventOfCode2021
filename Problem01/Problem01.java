@@ -21,46 +21,19 @@ public class Problem01 {
     } catch (FileNotFoundException ex) {
       System.out.println("File not found!");
     }
-
-    System.out.println(findGreaterSingle(nums));
-    System.out.println(findGreaterTriple(nums));
-
-
-/*
+    
     try {
       String mode = args[1];
-
-      int result = 0;
-      ArrayList<Integer> numContainers = new ArrayList<Integer>(); // used for part 2
-
-      // goes through each iteration
-      for (int i = 0; i < Math.pow(2, totalContainers); i++) {
-        String on = fillBinary(Integer.toBinaryString(i), totalContainers); // 1s are added, 0s are not
-        if (selectiveSum(containers, on) == desiredSum) {
-          if (mode.equals("1")) {
-            result++;
-          } else if (mode.equals("2")) {
-            numContainers.add(Integer.bitCount(i)); // bitCount() is used for counting how many containers are used
-          }
-        }
+      if (mode.equals("1")) {
+        System.out.println(findGreaterSingle(nums));
+      } else if (mode.equals("2")) {
+        System.out.println(findGreaterTriple(nums));
+      } else {
+        System.out.println(-1);
       }
-
-      // extra part 2 steps to find the lowest number of containers needed and how many permutations of that there are
-      if (mode.equals("2")) {
-        Collections.sort(numContainers);
-        int leastContainers = numContainers.get(0);
-        for (int i = 0; numContainers.get(i) == leastContainers; i++) {
-          result++;
-        }
-      }
-
-      if (!mode.equals("1") && !mode.equals("2")) result = -1;
-      System.out.println(result);
-
     } catch (ArrayIndexOutOfBoundsException e) {
-      System.out.println("Invalid syntax: use \"java Problem17 [filename] [1/2]\".");
+      System.out.println("Invalid syntax: use \"java Problem01 [filename] [1/2]\".");
     }
-    */
   }
 
   //================================================================================
@@ -73,15 +46,16 @@ public class Problem01 {
     }
     return result;
   }
+
   //================================================================================
   // PART 2
   //================================================================================
   private static int findGreaterTriple(ArrayList<Integer> nums) {
     int result = 0;
     int sum1, sum2;
-    for (int i = 1; i < 1999; i += 6) {
-      sum1 = nums.get(i)+nums.get(i+1)+nums.get(i+2);
-      sum2 = nums.get(i+3)+nums.get(i+4)+nums.get(i+5);
+    for (int i = 3; i < nums.size(); i++) {
+      sum1 = nums.get(i-3)+nums.get(i-2)+nums.get(i-1);
+      sum2 = nums.get(i-2)+nums.get(i-1)+nums.get(i);
       if (sum2 > sum1) result++;
     }
     return result;
