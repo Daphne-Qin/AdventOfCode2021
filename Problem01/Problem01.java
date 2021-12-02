@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Problem01 {
@@ -21,7 +20,7 @@ public class Problem01 {
     } catch (FileNotFoundException ex) {
       System.out.println("File not found!");
     }
-    
+
     try {
       String mode = args[1];
       if (mode.equals("1")) {
