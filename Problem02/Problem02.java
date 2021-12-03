@@ -7,12 +7,10 @@ public class Problem02 {
   // TESTER
   //================================================================================
   public static void main(String[] args) {
-    //ArrayList<Integer> nums = new ArrayList<Integer>();
-
-    // with strings
     int horizontal = 0;
     int depth = 0;
     int aim = 0;
+
     try {
       String line;
       File file = new File(args[0]);
