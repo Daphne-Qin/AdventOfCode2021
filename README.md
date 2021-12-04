@@ -15,7 +15,7 @@ The original problems can be found [here](https://adventofcode.com/2021 "Advent 
 
 ### Longest Runtimes Hall of ~~Shame~~ Fame
 *Mainly so I can laugh at myself.*
-1. **N/A**
+1. **Problem 03 Part 2**: 15m 5.521s (when running a while loop that never incremented could never satisfy the ending condition, corrected code takes <0.3s)
 
 ### Future Plans
 Later!
