@@ -1,5 +1,5 @@
 # Day 4: Giant Squid
-At first, I liked this problem since it basically taught me how to use ArrayLists of custom objects. I also learned about `java.util.NoSuchElementException`. Then the entire thing took me forever to code (even though I knew how to implement it, I had to keep writing out everything to make sure I wasn't confusing stuff), and it was so tedious that I didn't like it anymore. I could've done the entire thing by hand in around 10 minutes, and this thing took me around 2.5 hours to code.
+At first, I liked this problem since it basically taught me how to use ArrayLists of custom objects. I also learned about `java.util.NoSuchElementException`. Then the entire thing took me forever to code (even though I knew how to implement it, I had to keep writing out everything to make sure I wasn't confusing stuff), and it was so tedious that I didn't like it anymore. This thing took me around 2.5 hours to code, and I'm pretty sure I could've done it by hand in less time (there's 100 Bingo boards in the puzzle input, by the way).
 
 Here were my answers:
 | Part 1 | Part 2 |
