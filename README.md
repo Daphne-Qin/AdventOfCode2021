@@ -11,11 +11,17 @@ The original problems can be found [here](https://adventofcode.com/2021 "Advent 
 
 ### About the Code
 - I put my site-generated puzzle inputs either in `input.txt` or near the top of the code.
-- The general syntax is `java ProblemX input.txt [1/2]`.
+- The general syntax is `java ProblemXX input.txt [1/2]`.
 
 ### Longest Runtimes Hall of ~~Shame~~ Fame
 *Mainly so I can laugh at myself.*
 1. **Problem 03 Part 2**: 15m 5.521s (when running a while loop that never incremented could never satisfy the ending condition, corrected code takes <0.3s)
+
+### Favorite Problems
+Nothing notable yet!
+
+### Most Annoying Problems
+1. **Problem 04** (took ~2.5h to implement, would've taken less time to do it by hand)
 
 ### Future Plans
 Later!
