@@ -1,8 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Problem03 {
@@ -23,22 +21,25 @@ public class Problem03 {
       System.out.println("File not found!");
     }
 
-    String[] common = gammaEpsilon(binary);
-    System.out.println(Arrays.toString(common));
-    System.out.println(Integer.parseInt(common[0],2)*Integer.parseInt(common[1],2));
-
-    String oxygen = oxygen(binary);
-    String carbon = carbon(binary);
-    //System.out.println(oxygen);
-    //System.out.println(carbon);
-    System.out.println(Integer.parseInt(oxygen,2)*Integer.parseInt(carbon,2));
-
-
+    try {
+      String mode = args[1];
+      if (mode.equals("1")) {
+        String[] ge = gammaEpsilon(binary);
+        System.out.println(Integer.parseInt(ge[0],2)*Integer.parseInt(ge[1],2));
+      } else if (mode.equals("2")) {
+        String oxygen = oxygen(binary);
+        String carbon = carbon(binary);
+        System.out.println(Integer.parseInt(oxygen,2)*Integer.parseInt(carbon,2));
+      } else {
+        System.out.println(-1);
+      }
+    } catch (ArrayIndexOutOfBoundsException e) {
+      System.out.println("Invalid syntax: use \"java Problem03 [filename] [1/2]\".");
+    }
   }
 
-  // length 12 each binary
   //================================================================================
-  // PART 1
+  // gammaEpsilon(): make strings with the most (gamma) and least (epsilon) used bit
   //================================================================================
   private static String[] gammaEpsilon(ArrayList<String> nums) {
     int[] num1s = new int[]{0,0,0,0,0,0,0,0,0,0,0,0};
@@ -55,7 +56,7 @@ public class Problem03 {
       if (num1s[i] > nums.size()/2) {
         gamma += "1";
         epsilon += "0";
-      } else if (num1s[i] < nums.size()/2) {
+      } else if (num1s[i] < nums.size()/2 || (num1s[i] == nums.size()/2 && nums.size()%2 != 0)) {
         gamma += "0";
         epsilon += "1";
       } else {
@@ -70,8 +71,9 @@ public class Problem03 {
 
     return (result);
   }
+
   //================================================================================
-  // PART 2
+  // PART 2 SPECIFIC METHODS: oxygen() and carbon()
   //================================================================================
   private static String oxygen(ArrayList<String> numss) {
     ArrayList<String> nums=new ArrayList<>(numss);
