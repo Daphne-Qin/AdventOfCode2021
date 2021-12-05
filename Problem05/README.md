@@ -10,9 +10,11 @@ However, I quickly realized that:
 2. I barely understood how HashMaps worked. (Also, what was that `.stream()` thing I kept seeing on StackExchange?)
 3. I could just use an ArrayList of strings, sort it, and count the number of times each coordinate occurs in a row (and that I could just modify my `lookAndSay()` method from [my solution to AoC 2015 Problem 10](https://github.com/Daphne-Qin/AdventOfCode2015/blob/main/Problem10/Problem10.java)).
 
+Then, I thought about [counting the number of times a patch was colored in NetLogo](https://stackoverflow.com/questions/56803709/how-to-get-a-patch-to-count-the-turtles-passing-through-it), but I had already installed it and am not too familiar with it anymore.
+
 I spent around thirty minutes testing and trying to research stuff about HashMaps, then I gave up on that route. Afterwards, I think implementing the actual solution took me about an hour. Part 1 was simple enough, but Part 2 took me a while to debug (I kept switching the coordinates incorrectly).
 
-And honestly, I'd like to come back to this problem once I actually understand HashMaps. I liked this problem.
+And honestly, I'd like to come back to this problem once I actually understand HashMaps. I liked this problem. (Or maybe I'll try my hand at NetLogo.)
 
 Here were my answers:
 | Part 1 | Part 2 |
