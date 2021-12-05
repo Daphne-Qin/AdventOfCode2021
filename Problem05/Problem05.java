@@ -22,7 +22,6 @@ public class Problem05 {
       System.out.println("File not found!");
     }
 
-    Collections.sort(points);
     System.out.println(countGreaterFrequency(points));
   }
 
@@ -54,9 +53,10 @@ public class Problem05 {
       ax = Math.min(Integer.parseInt(a[0]), Integer.parseInt(b[0]));
       bx = Math.max(Integer.parseInt(a[0]), Integer.parseInt(b[0]));
       // redo ay, by
-      if (ax == Integer.parseInt(b[0])) ay = Integer.parseInt(b[1]); // if coord changed
+      if (ax == Integer.parseInt(b[0])) ay = Integer.parseInt(b[1]);
       if (bx == Integer.parseInt(a[0])) by = Integer.parseInt(a[1]);
 
+      // add points
       int i = ax;
       int j = ay;
       while (i <= bx) {
@@ -68,7 +68,9 @@ public class Problem05 {
     }
   }
 
-  private static int countGreaterFrequency(ArrayList<String> points) { // necessitates prior sorting of points
+  private static int countGreaterFrequency(ArrayList<String> points) {
+    Collections.sort(points);
+
     int result = 0;
 
     String current = points.get(0);
