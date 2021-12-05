@@ -29,5 +29,5 @@ def part2(input):
             aim += int(data[1])
     return (horizontal * depth)
 
-print(part1(input))
-print(part2(input))
+print("Part 1: " + str(part1(input)) )
+print("Part 2: " + str(part2(input)) )
