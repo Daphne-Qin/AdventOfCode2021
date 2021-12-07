@@ -1,9 +1,9 @@
 # Day 6: Lanternfish
-[Some](https://github.com/Daphne-Qin/AdventOfCode2015/blob/main/Problem15/Problem15.java) [problems](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04) have made me to grind code like there was no tomorrow. [Other](https://github.com/Daphne-Qin/AdventOfCode2015#longest-runtimes-hall-of-shame-fame) [problems](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame) have made me wait so long that I just did other stuff while waiting for the program to finish running.
+[Some](https://github.com/Daphne-Qin/AdventOfCode2015/blob/main/Problem15/Problem15.java) [problems](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04) have made me grind code like there was no tomorrow. [Other](https://github.com/Daphne-Qin/AdventOfCode2015#longest-runtimes-hall-of-shame-fame) [problems](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame) have made me wait so long that I just did other stuff while waiting for the program to finish running.
 
 This problem, however, was neither of those. In fact, this problem was the antithesis of both.
 
-Me being me, I read this problem in the morning (~7:50 AM-type morning, not [3 in the morning like yesterday](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem05)) and completely failed to process it, so I put it off for later. I then got to this problem at around 7 PM, and read it a few more times before I understood what it said.
+Me being me, I checked this problem in the morning (~7:50 AM-type morning, not [3 in the morning like yesterday](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem05)), read it too quickly, and completely failed to process it. I was also sleep-deprived since my 4 hours of sleep from yesterday caught up. I put the problem off for later, then came back to it at around 7 PM, and read it a few more times before I understood what it said.
 
 As I'm sure a lot of other people did, I first decided to use an ArrayList, check each number, count down if it was not 0, and added new fishes for each fish that reached 0. Then I ran Part 1 with no problems. So since Part 1 was easy, this was a pushover, right?
 
@@ -17,7 +17,9 @@ While it may not be my absolute favorite from this year so far, I respect this p
 
 Perhaps I'll go back to some of the [2015 HoF entries](https://github.com/Daphne-Qin/AdventOfCode2015#longest-runtimes-hall-of-shame-fame) and think up some better solutions to them. Including 2015 Problem 10.
 
-Here were my answers:
+I need some sleep.
+
+### Answers
 | Part 1 | Part 2 |
 | :---: | :---: |
 | 372300 | 1675781200288 |
