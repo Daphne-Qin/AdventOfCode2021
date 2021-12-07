@@ -5,7 +5,7 @@ Another set of cute problems. Granted, you'd be in for a wild ride if you don't 
   <summary>Additional Comments (Spoilers!)</summary>
   If you did it the non-bashy way, just remember that your code might always round down when dividing (Java specifically does Integer division). For Part 2, the sample input (16,1,2,0,4,2,7,1,2,14) works when rounding up the mean, but your code may only work when rounding it down.
 
-  This problem ended up making a good portion of the math team (including those who weren't participating in AoC) yell at each other about whether Part 1 was supposed to use the mode, the median, or the mean. Also, I've heard that the site apparently crashed since so many people did know the shortcut.
+  This problem ended up making a good portion of the math team (including those who weren't participating in AoC) yell at each other about whether Part 1 was supposed to use the mode, the median, or the mean. Also, I've heard that the AoC website apparently crashed since so many people did know the shortcut.
 </details>
 
 Here were my answers:
@@ -50,21 +50,21 @@ Determine the horizontal position that the crabs can align to using the least fu
 ## Part 2
 The crabs don't seem interested in your proposed solution. Perhaps you misunderstand crab engineering?
 
-As it turns out, crab submarine engines don't burn fuel at a constant rate. Instead, each change of 1 step in horizontal position costs 1 more unit of fuel than the last: the first step costs 1, the second step costs 2, the third step costs 3, and so on.
+As it turns out, crab submarine engines don't burn fuel at a constant rate. Instead, each change of 1 step in horizontal position costs 1 more unit of fuel than the last: the first step costs `1`, the second step costs `2`, the third step costs `3`, and so on.
 
-As each crab moves, moving further becomes more expensive. This changes the best horizontal position to align them all on; in the example above, this becomes 5:
+As each crab moves, moving further becomes more expensive. This changes the best horizontal position to align them all on; in the example above, this becomes `5`:
 
-- Move from 16 to 5: 66 fuel
-- Move from 1 to 5: 10 fuel
-- Move from 2 to 5: 6 fuel
-- Move from 0 to 5: 15 fuel
-- Move from 2 to 5: 6 fuel
-- Move from 4 to 5: 1 fuel
-- Move from 7 to 5: 3 fuel
-- Move from 1 to 5: 10 fuel
-- Move from 2 to 5: 6 fuel
-- Move from 14 to 5: 45 fuel
+- Move from `16` to `5`: `66` fuel
+- Move from `1` to `5`: `10` fuel
+- Move from `2` to `5`: `6` fuel
+- Move from `0` to `5`: `1`5 fuel
+- Move from `2` to `5`: `6` fuel
+- Move from `4` to `5`: `1` fuel
+- Move from `7` to `5`: `3` fuel
+- Move from `1` to `5`: `10` fuel
+- Move from `2` to `5`: `6` fuel
+- Move from `14` to `5`: `45` fuel
 
-This costs a total of **168** fuel. This is the new cheapest possible outcome; the old alignment position (2) now costs 206 fuel instead.
+This costs a total of **168** fuel. This is the new cheapest possible outcome; the old alignment position (`2`) now costs `206` fuel instead.
 
 Determine the horizontal position that the crabs can align to using the least fuel possible so they can make you an escape route! **How much fuel must they spend to align to that position?**
