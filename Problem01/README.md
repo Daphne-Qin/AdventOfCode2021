@@ -1,7 +1,20 @@
 # Day 1: Sonar Sweep
+
+### Java Remarks
 Cute problems. Not much else to say about them, since they were pretty simple and straightforward. Don't be like me and misread Part 2, though.
 
-Here were my answers:
+### Python Remarks
+(This was written on Day 5 of AoC.)
+
+A friend and I were talking about AoC, and then we talked about the benefits and drawbacks between Java and Python. To test it out myself (and partially as a flex), I rewrote the entire thing, but in Python.
+
+I don't know as much Python as I do Java (and I'm also not as familiar with it), so it took me a while to code. I decided to code the exact same methods using the exact same methods I'd used in Java (but translated). I didn't include console argument inputs in my Python solution like I did for the Java solution since I didn't know how to do that, but I don't think it would've added too many lines.
+
+Her point is proven, though (62 Java vs. 24 simpler Python lines), and I concede defeat.
+
+[Python Remarks (Day 2)](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem02#python-remarks)
+
+### Answers
 | Part 1 | Part 2 |
 | :---: | :---: |
 | 1759 | 1805 |

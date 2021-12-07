@@ -1,7 +1,20 @@
 # Day 2: Dive!
+
+### Java Remarks
 Another set of cute problems. Not much else to say about them, since they were pretty simple and straightforward.
 
-Here were my answers:
+### Python Remarks
+(This was written on Day 5 of AoC.)
+
+After writing [Python code](https://github.com/Daphne-Qin/AdventOfCode2021/blob/main/Problem01/Problem01.py) for Problem 1, I decided to write one for Problem 2, since I'd need to use each input line a bit more, and I was genuinely curious about how hard it would be to implement.
+
+Once again, her point is proven.
+
+While it wasn't too hard to translate and implement (sans console arguments), I won't recode any other problems in Python (I could do 3, and maybe 5 with a bit of Googling on list sorting or Python dictionaries, but I know I don't know enough to replicate my solution from 4... and also, it's not as fun to translate code as it is to solve it the first time). I will say, though, that this was a fun little side-thing.
+
+[Python Remarks (Day 1)](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem01#python-remarks)
+
+### Answers
 | Part 1 | Part 2 |
 | :---: | :---: |
 | 1698735 | 1594785890 |
