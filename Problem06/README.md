@@ -9,7 +9,7 @@ As I'm sure a lot of other people did, I first decided to use an ArrayList, chec
 
 Silly me. That was *Part* 1, not Day 1.
 
-I then tried Part 2, and then saw that the demo was taking more than five seconds to return an answer. Then I was about to get ready to add another entry to the [Hall of Shame](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame), but I got an `OutOfMemoryError` after 41.308s and after ocean day 201. Keep in mind that this is the *demo*, and I hadn't even run the code using my input. Guess I'm not adding a legitimate HoF entry yet. (Even though it's up there, Day 3 doesn't really count, in my opinion.)
+I then tried Part 2, then saw that the demo was taking more than five seconds to return an answer. Then I was about to get ready to add another entry to the [Hall of Shame](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame), but I got an `OutOfMemoryError` after 41.308s and after ocean day 201. Keep in mind that this is the *demo*, and I hadn't even run the code using my input. Guess I'm not adding a legitimate HoF entry yet. (Even though it's up there, Day 3 doesn't really count, in my opinion.)
 
 I thought a bit more, realized that fish could be grouped together by day (after all they all stayed within their group while cycling through the days), and coded that solution. Then I got a negative number for my Part 2 answer (my code had a logic error), and I never subtracted anything, so I knew something was up. Then I remembered an obscure APCS lesson, and then I remembered that once Integers reached 32 bits, they would loop around to the negative numbers. So I then had to replace every instance of "Integer" or "int" with "Long" and "long", respectively.
 
