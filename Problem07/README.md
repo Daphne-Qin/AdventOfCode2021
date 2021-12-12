@@ -4,7 +4,7 @@ Another set of cute problems. Granted, you'd be in for a wild ride if you don't 
 <details>
   <summary>Additional Comments (Spoilers!)</summary>
   If you did it the non-bashy way, just remember that your code might always round down when dividing (Java specifically does Integer division). For Part 2, the sample input (16,1,2,0,4,2,7,1,2,14) works when rounding up the mean, but your code may only work when rounding it down.
-
+  <br><br>
   This problem ended up making a good portion of the math team (including those who weren't participating in AoC) yell at each other about whether Part 1 was supposed to use the mode, the median, or the mean. Also, I've heard that the AoC website apparently crashed since so many people did know the shortcut.
 </details>
 
