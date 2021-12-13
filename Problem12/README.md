@@ -17,7 +17,7 @@ I actually really, really liked this problem! It gave me quite the scare at the 
 
 This belongs at the top of my [favorite problems list](https://github.com/Daphne-Qin/AdventOfCode2021#favorite-problems), for sure. Well, unless a later AoC problem takes its spot. Hey, we're almost halfway done!
 
-Here were my answers:
+### Answers
 | Part 1 | Part 2 |
 | :---: | :---: |
 | 4707 | 130493 |
