@@ -18,9 +18,13 @@ I was going to do AoC right there and then, but I remembered what happened [the 
 
 The coding process itself wasn't bad. I created a new Fold class for organizational purposes, and spent the next thirty-so minutes trying to initialize everything. The fact that x was horizontal and y vertical (instead of vice-versa) messed me up several times while trying to plot the initial points correctly. In fact, it took me longer to initiate everything than it took to code the folding logic (which wasn't hard at all).
 
+Given the nature of the problem description for Part 1, I knew that Part 2 was almost definitely going to ask me to fold everything, so I did. (After all, my input had a vertical fold first, and the sample input had a horizontal fold first, so I thought I might as well code both functions and be done with it.) I was greeted with some random characters, but wasn't too surprised since I figured that that was going to be my answer to Part 2. Then I coded the specific method to count the visible points for Part 1. (Basically meaning, I solved Part 2 before solving Part 1!)
+
 I thought this problem was a better version of Problem 5. It was extremely interesting that the input itself had something to offer in terms of coming up with solution logic, since I'm pretty used to simply importing the file after looking at the first two lines. I think it would've taken me way, way longer to solve this problem had I not looked at the input and figured the pattern out. Although I still liked yesterday's problem more, this problem is definitely a favorite. I think I'll simply just swap out 5 with 13.
 
 (Coincidentally, Problem 5 also had something involving coordinate systems... and coincidentally, Day 5 was the other day where I woke up at 2-something AM.)
+
+I should do my English homework.
 
 ### Answers
 | Part 1 | Part 2 |
