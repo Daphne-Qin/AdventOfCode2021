@@ -24,7 +24,7 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 
 ### Favorite Problems
 1. [**Problem 12**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem12): a recursion problem, but a nice recursion problem! Seemed scary at the beginning, but got pretty straightforward once I started coding everything out.
-2. [**Problem 05**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem05): nice longer coding experience that required a bit more thought for the diagonals. Also gave me some nice alternative solutions to consider trying out in the future.
+2. [**Problem 13**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem13): a problem where, in terms of coming up with solution logic, the input had something to offer, too!
 3. [**Problem 06**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem06): simple yet deceptive.
 
 ### Most Annoying Problems
