@@ -12,6 +12,8 @@ I was going to do AoC right there and then, but I remembered what happened [the 
   This greatly simplified the problem for me, and I know that had I attempted this problem at 3 in the morning, I would probably have not noticed this pattern at all and would have tried to experiment with folding unevenly.
 </details>
 
+---
+
 The coding process itself wasn't bad. I created a new Fold class for organizational purposes, and spent the next thirty-so minutes trying to initialize everything. The fact that x was horizontal and y vertical (instead of vice-versa) messed me up several times while trying to plot the initial points correctly. In fact, it took me longer to initiate everything than it took to code the folding logic (which wasn't hard at all).
 
 I thought this problem was a better version of Problem 5. It was extremely interesting that the input itself had something to offer in terms of coming up with solution logic, since I'm pretty used to simply importing the file after looking at the first two lines. I think it would've taken me way, way longer to solve this problem had I not looked at the input and figured the pattern out. Although I still liked yesterday's problem more, this problem is definitely a favorite. I think I'll simply just swap out 5 with 13.

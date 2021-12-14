@@ -6,6 +6,8 @@ I saw Part 1 at 12 AM, then remembered [what happened the last time I did a prob
   I'd thought of a solution for Part 1 on the way to school, but it didn't involve storing the locations of the low points themselves. However, at school, I figured out the description for Part 2, then realized that I should keep the low point locations. I also learned about [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/) and [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) while talking to another AoC participant, so now I knew that I should probably recursively solve the problem, presumably using the low points.
 </details>
 
+---
+
 I spent a decent amount of time writing the helper `adjacentCoords()` function and the recursive `basinSize()` function (I hadn't used recursion in a while), and I definitely saved a lot of time. I do wonder, however, if this problem would've made the [annoying problems list](https://github.com/Daphne-Qin/AdventOfCode2021#most-annoying-problems) had I done it on my own.
 
 I surprisingly ran Part 2 correctly on my first try, and without syntax errors.
