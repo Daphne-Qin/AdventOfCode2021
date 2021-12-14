@@ -44,13 +44,19 @@ public class Problem13 {
 
 
     // fold
+    int part1 = 0;
+    int foldCount = 0;
     for (String currentFold : folds) {
       paper.foldLine(currentFold);
+      foldCount++;
+      if (foldCount == 1) {
+        part1 = paper.numVisibleDots();
+      }
     }
 
 
     // return answers
-    //System.out.println("Part 1: " + part1);
+    System.out.println("Part 1: " + part1);
     System.out.println("Part 2: \n" + paper);
   }
 }
