@@ -1,6 +1,8 @@
 # Day 9: Smoke Basin
 I saw Part 1 at 12 AM, then remembered [what happened the last time I did a problem at 12 AM](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem03#day-3-binary-diagnostic). And yes, I did stay up until 12 AM this time... it took 6 days for me to stay up until 12 AM again. I was correct, but not for the reason I predicted, as I was doing my homework instead of killing time like I did on Day 3. So I just went to sleep.
 
+---
+
 <details>
   <summary>Coming Up with Solution Logic (Spoilers!)</summary>
   I'd thought of a solution for Part 1 on the way to school, but it didn't involve storing the locations of the low points themselves. However, at school, I figured out the description for Part 2, then realized that I should keep the low point locations. I also learned about [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/) and [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) while talking to another AoC participant, so now I knew that I should probably recursively solve the problem, presumably using the low points.

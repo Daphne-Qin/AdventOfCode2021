@@ -3,6 +3,8 @@ I woke up at 2:51 AM today, tried to fall asleep for a few minutes, and got curi
 
 I was going to do AoC right there and then, but I remembered what happened [the last time I woke up at 2-something AM](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem05#day-5-hydrothermal-venture). Thus, for my sake and the entire math team's (if any of you guys ever see this, sorry for yelling so much, I really do try to keep my emotions in check), I tried to go back to sleep. My APCS teacher had suggested on AoC Day 6 for me to try reading a history textbook to bore me to sleep, and I read a few random pages of my book, but I took another 30 minutes to fall asleep after the book made me drowsy (last I checked it was 4:01 AM). But hey, I learned about [*Clark v. Community for Creative Non-Violence*](https://en.wikipedia.org/wiki/Clark_v._Community_for_Creative_Non-Violence), I wasn't too sleep-deprived, and my government teacher would be proud.
 
+---
+
 <details>
   <summary>Coming Up with Solution Logic (Spoilers!)</summary>
   And it was a good thing I waited to do the AoC. On the way back from school, I was bored and wanted to procrastinate on my English homework, so I reread today's problem again. I first noticed that I would only have to fold up and left, which I'd missed on my first read. This time, however, I also looked at my input, scrolled to the bottom, and realized that there was no need for me to worry about the folding being uneven.
