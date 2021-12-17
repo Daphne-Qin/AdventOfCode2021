@@ -28,8 +28,9 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 3. [**Problem 06**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem06): simple yet deceptive.
 
 ### Most Annoying Problems
-1. [**Problem 11**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem11): coming up with the solution wasn't easy. Debugging my logic errors was super duper annoying. I *hated* looking through thirty-something maps to check the difference between each iteration (and this was from octopus to octopus, so there were 100 maps per iteration).
-2. [**Problem 04**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04): this took ~2.5h to implement, and I'm pretty sure it would've taken less time to do it by hand.
+1. [**Problem 16**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16): I know a lot of people (specifically, Redditors) liked this problem. But this problem made me reread the question for more than four hours and wrecked my confidence in myself (after all, how come everyone else understood the problem and I couldn't understand it after my best shot). And even after all that, I *still* didn't understand the problem. I know the algorithm has simple implementation, I just can't understand the specifics of what I am supposed to do. I have not fully solved this problem yet.
+2. [**Problem 11**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem11): coming up with the solution wasn't easy. Debugging my logic errors was super duper annoying. I *hated* looking through thirty-something maps to check the difference between each iteration (and this was from octopus to octopus, so there were 100 maps per iteration).
+3. [**Problem 04**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04): this took ~2.5h to implement, and I'm pretty sure it would've taken less time to do it by hand.
 
 ## Future Plans
 Later!
