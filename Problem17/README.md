@@ -5,9 +5,9 @@ Seems like my break, which started on [December 16](https://github.com/Daphne-Qi
 
 I read the first paragraph of the problem description:
 
-> You finally decode the Elves' message. HI, the message says. You continue searching for the sleigh keys.
+> You finally decode the Elves' message. `HI`, the message says. You continue searching for the sleigh keys.
 
-Is topaz[^1] serious right now? [Problem 16's overly long description on how to decode a message](https://adventofcode.com/2021/day/16) was all for a "HI"? Seems like Problem 17 was the calm before the storm again, since [Problem 18](https://adventofcode.com/2021/day/18) is also long. I'm still recovering from my 4 hours of trying to understand Problem16's description. No way am I doing that *again* today.
+Is topaz[^1] serious right now? [Problem 16's overly long description on how to decode a message](https://adventofcode.com/2021/day/16) was all for a "HI"? Seems like Problem 17 was the calm before the storm again, since [Problem 18](https://adventofcode.com/2021/day/18) is also long. I'm still recovering from my 4 hours of trying to understand Problem16's description. No way am I doing that *again* today. From now on, I might just do Problem 18, or any other problem with a long description, after December 25. I already exhausted the extent of my capacity for attention on Problem 16, which I still haven't solved yet (as of when I'm writing this).
 
 Anyway, onto today's problem.
 
