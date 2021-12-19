@@ -7,7 +7,7 @@ I read the first paragraph of the problem description:
 
 > You finally decode the Elves' message. `HI`, the message says. You continue searching for the sleigh keys.
 
-Is topaz[^1] serious right now? [Problem 16's overly long description on how to decode a message](https://adventofcode.com/2021/day/16) was all for a "HI"? Seems like Problem 17 was the calm before the storm again, since [Problem 18](https://adventofcode.com/2021/day/18) is also long. I'm still recovering from my 4 hours of trying to understand Problem 16's description. No way am I doing that *again* today. From now on, I might just do any problem with a long description after December 25. I already exhausted the extent of my capacity for attention on Problem 16, which I still haven't solved yet (as of when I'm writing this).
+Is topaz[^1] serious right now? [Problem 16's overly long description on how to decode a message](https://adventofcode.com/2021/day/16) was all for a "HI"? Seems like Problem 17 was the calm before the storm again, since [Problem 18](https://adventofcode.com/2021/day/18) is also long. I'm still recovering from my 4 hours of trying to understand Problem 16's description. No way am I doing that *again* today.[^2] From now on, I might just do any problem with a long description after December 25. I already exhausted the extent of my capacity for attention on Problem 16, which I still haven't solved yet (as of when I'm writing this).
 
 Anyway, onto today's problem.
 
@@ -21,6 +21,11 @@ For my brute-force algorithm, I tried x-velocities from 0 to 250 and y-velocitie
 
 
 I'm noticing how this README thing is becoming less about the problem itself and more about my actual day. I kind of like it that way.
+
+### Answers
+| Part 1 | Part 2 |
+| :---: | :---: |
+| 19503 | 5200 |
 
 ## Part 1
 You finally decode the Elves' message. `HI`, the message says. You continue searching for the sleigh keys.
@@ -162,4 +167,5 @@ In the above example, there are **112** different initial velocity values that m
 
 **How many distinct initial velocity values cause the probe to be within the target area after any step?**
 
-[^1]: a shortening of the AoC creator's Reddit username, topaz2078. [More about him here.](https://adventofcode.com/2021/about)
+[^1]: A shortening of the AoC creator's Reddit username, topaz2078. [More about him here.](https://adventofcode.com/2021/about)
+[^2]: I ended up doing [Problem 18](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem18) on December 18 as well, thus reneging on this statement.

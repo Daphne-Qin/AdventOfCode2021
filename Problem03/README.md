@@ -7,7 +7,7 @@ I don't think it was a hard problem. It was just really, really easy to make mis
 
 Part 1 was simple enough, but then came part 2. I first misread the question, so I got the same answer I did for part 1 and didn't question it for some reason. During the same run, I even got to add the first [Hall of Shame](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame) entry for this year. After I reread the question and wrote more code, it took a while for me to realize that I also had another logic error for my edited `gammaEpsilon()` function (and by then, it was around 8 PM).
 
-I've decided to not stay up until 12 AM again. (Although knowing myself, I'd probably do it again in less than a week.)
+I've decided to not stay up until 12 AM again. (Although knowing myself, I'd probably do it again in less than a week.)[^1]
 
 Here were my answers:
 | Part 1 | Part 2 |
@@ -77,3 +77,5 @@ Then, to determine the **CO2 scrubber rating** value from the same example above
 Finally, to find the life support rating, multiply the oxygen generator rating (23) by the CO2 scrubber rating (10) to get **230**.
 
 Use the binary numbers in your diagnostic report to calculate the oxygen generator rating and CO2 scrubber rating, then multiply them together. **What is the life support rating of the submarine?** (Be sure to represent your answer in decimal, not binary.)
+
+[^1]: This proved to be true! I ended up staying up until 12AM on [December 9](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem09#day-9-smoke-basin).
