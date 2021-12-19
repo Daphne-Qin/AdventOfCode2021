@@ -2,12 +2,12 @@
 You are currently viewing the **AdventOfCode2021** repository.
 
 ## About this Repository
-The original problems can be found [here](https://adventofcode.com/2021 "Advent of Code 2021"). All code found here are (in some cases, inefficient) solutions to those questions.
+The original problems can be found [here](https://adventofcode.com/2021 "Advent of Code 2021"). All code found here are solutions to those questions.
 
 ### Folder Content
 Most of the solutions are written in Java, although Problems 1 and 2 contain solutions in Python ~~from the one time I wanted to prove a point but proved the other person's point instead but that's another story~~.
 
-It usually also includes an `input.txt` file (if it doesn't, there's an `input` variable near the top of the code).
+It also includes an `input.txt` file.
 
 Lastly, there's a README file with my thoughts on the problem at the very top, my solutions, and then the problems themselves.
 
@@ -29,8 +29,9 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 
 ### Most Annoying Problems
 1. [**Problem 16**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16): I know a lot of people (specifically, Redditors) liked this problem. But this problem made me reread the question for more than four hours and wrecked my confidence in myself (after all, how come everyone else understood the problem and I couldn't understand it after my best shot). And even after all that, I *still* didn't understand the problem. I know the algorithm has simple implementation, I just can't understand the specifics of what I am supposed to do. I have not fully solved this problem yet.
-2. [**Problem 11**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem11): coming up with the solution wasn't easy. Debugging my logic errors was super duper annoying. I *hated* looking through thirty-something maps to check the difference between each iteration (and this was from octopus to octopus, so there were 100 maps per iteration).
-3. [**Problem 04**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04): this took ~2.5h to implement, and I'm pretty sure it would've taken less time to do it by hand.
+2. [**Problem 18**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem18): this took ***forever*** to debug, for both Parts 1 and 2. Also, if you miss one key sentence in the directions... have fun scratching your head at why your code won't work even though your logic seems correct. Also, if you're doing the snail numbers as objects, watch out for shallow copying.
+3. [**Problem 11**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem11): coming up with the solution wasn't easy. Debugging my logic errors was super duper annoying. I *hated* looking through thirty-something maps to check the difference between each iteration (and this was from octopus to octopus, so there were 100 maps per iteration).
+4. [**Problem 04**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04): this took ~2.5h to implement, and I'm pretty sure it would've taken less time to do it by hand.
 
 ## Future Plans
 Later!
