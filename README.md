@@ -34,4 +34,14 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 4. [**Problem 04**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04): this took ~2.5h to implement, and I'm pretty sure it would've taken less time to do it by hand.
 
 ## Future Plans
-Later!
+- Edit Problems 1 through 7 so they no longer need arguments.
+- To work on the following problems:
+
+### Unsolved Problems
+- Problem 15
+- Problem 16
+- Problem 19
+
+### Problems to Redo
+- Problem 5 (HashMaps?)
+- Problem 12 (BFS)
