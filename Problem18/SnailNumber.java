@@ -26,8 +26,8 @@ public class SnailNumber {
   // SNAILNUMBER ADD METHODS
   //================================================================================
   public void add(SnailNumber s) {
-    elements.addAll(s.getElements());
-    depths.addAll(s.getDepths());
+    elements.addAll(s.elements);
+    depths.addAll(s.depths);
 
     for (int i = 0; i < depths.size(); i++) {
       depths.set(i, depths.get(i)+1);
@@ -133,22 +133,14 @@ public class SnailNumber {
         }
       }
     }
-    
+
     return e.get(0);
   }
 
   //================================================================================
   // VALUE RETURNERS
   //================================================================================
-  public ArrayList<Integer> getElements() {
-    return elements;
-  }
-
-  public ArrayList<Integer> getDepths() {
-    return depths;
-  }
-
   public String toString() {
-    return "-\n" + elements.toString() + "\n" + depths.toString() + "\n-";
+    return "=====\n" + elements.toString() + "\n" + depths.toString() + "\n=====";
   }
 }
