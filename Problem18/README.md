@@ -11,6 +11,7 @@ There's a lovely key paragraph somewhere within the directions:
 
 ... okay, let's start from the beginning. I'm going a bit too fast.
 
+### December 18
 So yesterday, I finished [Problem 17](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem17), finished the rest of my homework, then realized that I had nothing better to do. As such, I just went to Problem 18 since, well, I had nothing better to do. (I did say yesterday that I did not want to read Problem 18 until after December 25, but oh well.)
 
 I skimmed the problem and thought, "Oh, that's actually not that bad. Seems like the length comes from the number of examples they have." I first thought to solve the problem using Strings, and it barely took any time for my code to turn into a sloppy mess. It started off neat, but then I had to code in the `explode` function, and that was just a big no-no. It kept on dying, I had to add edge cases, but in the end I got something I thought was working.
@@ -38,6 +39,7 @@ I tried adding new edge cases to the reducing algorithm. I tried changing up the
 
 And I did mentally run away after that, so I thought, "You know what? I'm going to bed. I can deal with this tomorrow."
 
+### December 19
 Cue today, and I decide to rewrite the whole thing from the bottom-up and delete my String-based code off the face of the Earth. Because why should I use Strings when I could use OOP and express each element in terms of its depth?
 
 It took 30 minutes after that to recreate my depth-based algorithm, and then I thought, "If the split and explode algorithms aren't going to work automatically, why don't I just manually run them?"
