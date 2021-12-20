@@ -1,4 +1,6 @@
 # Day 18: Snailfish
+(I'm writing this on December 19.)
+
 This has to have been the single most infuriating problem so far. This problem took a grand total of 7 hours to solve.
 
 Why did it take so long to solve, you may ask?
