@@ -12,12 +12,12 @@ I read the directions once again, and I was pretty sure that I'd read everything
 
 <details>
   <summary>Solution Logic (Spoilers!)</summary>
-  I noticed that <code>inp w</code> appeared a couple of times, and so did the next few lines. This prompted me to copy and paste my entire input into a Google Document and start highlighting the differences between each of the different iterations (there's 14 of them). There's only three differences, but these differences are the key to solving the problem. [This guy explains the logic pretty well.](https://github.com/mrphlip/aoc/blob/master/2021/24.md)
+  I noticed that <code>inp w</code> appeared a couple of times, and so did the next few lines. This prompted me to copy and paste my entire input into a Google Document and start highlighting the differences between each of the different iterations (there's 14 of them). There's only three differences, but these differences are the key to solving the problem. <a href="https://github.com/mrphlip/aoc/blob/master/2021/24.md">This guy explains the logic pretty well.</a>
   <br><br>
   I had gotten the case for the <code>div z 1</code> cases, but not the code for the <code>div z 26</code> cases. I kept getting that the <code>add x</code> number had to be equal to the negative of the <code>add y</code> number (I had <code>w+a+b == w</code>, where <code>a</code> is the <code>add x</code> number and <code>b</code> is the <code>add y</code> number). I was aware, though, that the value of <code>x</code> had to turn out to be 0 for the <code>div z 26</code> cases, since if it were 1, then <code>z</code> cannot ever be 0. There were negative numbers for a reason.
 </details>
 
-While I was writing out my solution on paper, I had no idea what I'd done wrong. I was also talking to friends, so I didn't really want to focus on it. So I left it to today.
+While I was writing out my solution on paper, I had no idea where I'd gone wrong in my computations. I was also talking to friends (it's holiday season, after all), so I didn't really want to focus on it. So I left it to today.
 
 ### December 25
 If you want to know what I did this morning, go ahead and [read the beginning of the README for Problem 25](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem25#day-25-sea-cucumber). I still can't solve that Puppet Cube--in fact, I can barely even turn it around.
