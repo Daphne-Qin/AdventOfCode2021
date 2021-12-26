@@ -23,8 +23,8 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 1. *Problem 03 Part 2*: 15m 5.521s (when running a while loop that never incremented and thus could never satisfy the ending condition, corrected code takes <0.3s)
 
 ### Favorite Problems
-1. [**Problem 12**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem12): a recursion problem, but a nice recursion problem! Seemed scary at the beginning, but got pretty straightforward once I started coding everything out.
-2. [**Problem 13**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem13): a problem where, in terms of coming up with solution logic, the input had something to offer, too!
+1. [**Problem 24**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem24): it could be either very annoying or very interesting to solve, depending on your tastes. You do have to notice quite a few things, though!
+2. [**Problem 12**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem12): a recursion problem, but a nice recursion problem! Seemed scary at the beginning, but got pretty straightforward once I started coding everything out.
 3. [**Problem 06**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem06): simple yet deceptive.
 
 ### Most Annoying Problems
@@ -32,6 +32,17 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 2. [**Problem 18**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem18): this took ***forever*** to debug, for both Parts 1 and 2. Also, if you miss one key sentence in the directions... have fun scratching your head at why your code won't work even though your logic seems correct. Also, if you're doing the snail numbers as objects, watch out for shallow copying.
 3. [**Problem 11**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem11): coming up with the solution wasn't easy. Debugging my logic errors was super duper annoying. I *hated* looking through thirty-something maps to check the difference between each iteration (and this was from octopus to octopus, so there were 100 maps per iteration).
 4. [**Problem 04**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04): this took ~2.5h to implement, and I'm pretty sure it would've taken less time to do it by hand.
+
+### Spoilers
+<details>
+  <summary>Image Comments</summary>
+  I haven't finished the calendar yet, but if you've been following along with the story, you should notice that the full image corresponds to the ocean and its locations. For example, the cave is from rows 8 to 15 (which is when you're in the cave in the storyline), and the trench is from rows 17 to 25.
+</details>
+
+<details>
+  <summary>Other Goodies</summary>
+  There are small Easter eggs in each of the problems. You reveal them by hovering over the target phrase.
+</details>
 
 ## Future Plans
 - Edit Problems 1 through 7 so they no longer need arguments.
