@@ -9,7 +9,7 @@ There's a lovely key paragraph somewhere within the directions:
 
 > During reduction, at most one action applies, after which the process returns to the top of the list of actions. For example, if **split** produces a pair that meets the **explode** criteria, that pair **explodes** before other **splits** occur.
 
-... okay, let's start from the beginning. I'm going a bit too fast.
+... okay, I'm going a bit too fast. Let's start from the beginning.
 
 ### December 18
 So yesterday, I finished [Problem 17](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem17), finished the rest of my homework, then realized that I had nothing better to do. As such, I just went to Problem 18 since, well, I had nothing better to do. (I did say yesterday that I did not want to read Problem 18 until after December 25, but oh well.)
@@ -40,13 +40,13 @@ I tried adding new edge cases to the reducing algorithm. I tried changing up the
 And I did mentally run away after that, so I thought, "You know what? I'm going to bed. I can deal with this tomorrow."
 
 ### December 19
-Cue today, and I decide to rewrite the whole thing from the bottom-up and delete my String-based code off the face of the Earth. Because why should I use Strings when I could use OOP and express each element in terms of its depth?
+Cue today, and I decided to rewrite the whole thing from the bottom-up and delete my String-based code off the face of the Earth. Because why should I use Strings when I could use OOP and express each element in terms of its depth?
 
 It took 30 minutes after that to recreate my depth-based algorithm, and then I thought, "If the split and explode algorithms aren't going to work automatically, why don't I just manually run them?"
 
 I did that, then while running them realized that I had no idea how they were supposed to be run. When a split produced an explodable pair, but there were still other splits in the snail number, should I explode or split?
 
-I reread the directions, and then I read that one key paragraph (that's at the top of this rant), and I got *so, so angry*. I spent ***3 hours*** debugging something since I couldn't read the directions? ***3 hours***, which I could've used on something more productive like studying for my math test on Wednesday?
+I reread the directions, and then I read that one key paragraph (that's at the top of this rant), and I got *so, so angry*. I spent ***3 hours*** debugging something since I couldn't read the directions? ***3 hours***, which I could've used on something more productive like studying for my math test on Wednesday?[^1]
 
 Fixing my `split` algorithm took less than a minute. All I had to do was terminate after splitting once, then check if anything should be exploded. My gosh, that one roadblock could've been easily avoided if I had just read the directions.
 
@@ -60,7 +60,7 @@ Cue me trying to figure out what in the world I did wrong and repeatedly adjusti
 
 Seemed like the problem was that, by stating `SnailNumber sum = snailNums.get(0)`, I simply made a shallow copy called "sum". Thus, I was effectively using that sum for Part 2.
 
-I then rewrote my code so it made new `SnailNumber`s for every iteration, and it worked like a charm.
+I then rewrote my code so it saved the original lines with brackets (instead of discarding them like before), then made new `SnailNumber`s for parts 1 and 2, and it worked like a charm.
 
 This wasn't exactly a bad problem, but it was *very, very annoying*. If you aren't very careful with this problem, you're in for a long, long ride. And for being so annoying, it belongs near the top of my [list of annoying problems](https://github.com/Daphne-Qin/AdventOfCode2021#most-annoying-problems). It was almost the worst. *Almost*. But I still think debugging a solution for 4 hours is better than [reading a question for 4 hours and still not comprehending it after said 4 hours](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16#day-16-packet-decoder).
 
@@ -99,3 +99,5 @@ Again considering the last example homework assignment above:
 The largest magnitude of the sum of any two snailfish numbers in this list is **3993**. This is the magnitude of `[[2,[[7,7],7]],[[5,8],[[9,3],[0,2]]]]` + `[[[0,[5,8]],[[1,7],[9,6]]],[[4,[1,2]],[[1,4],2]]]`, which reduces to `[[[[7,8],[6,6]],[[6,0],[7,7]]],[[[7,8],[8,8]],[[7,9],[0,6]]]]`.
 
 **What is the largest magnitude of any sum of two different snailfish numbers from the homework assignment?**
+
+[^1]: Rip. Didn't go too badly, but do you ever experience that phenomenon where your brain just forgets everything it usually retains and uses and just screams the entire test?
