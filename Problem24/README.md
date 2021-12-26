@@ -8,7 +8,7 @@ Yesterday, I got bored and had nothing to do (even though I have three projects 
 
 I know that the [Hall of Shame](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame) has been pretty empty this year. In fact, it's a good thing it's empty, but sometimes things run for a while. [I've even let programs run for over 72 minutes before.](https://github.com/Daphne-Qin/AdventOfCode2015#longest-runtimes-hall-of-shame-fame) But this just crosses the line. I wasn't sure that my computer could even finish in a few hours, given that there's 20,661,046,784 numbers to test and there's 252 operations (the length of the input) to perform for each number.
 
-I read the directions once again, and I was pretty sure that I'd read everything correctly. [As I wanted to avoid taking notes at all costs](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16#day-16-packet-decoder), I decided to take inspiration from what I did on [Day 15](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem13#day-13-transparent-origami) and look at the input. I then wrote the solution logic on paper.
+I read the directions once again, and I was pretty sure that I'd read everything correctly. [As I wanted to avoid taking notes at all costs](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16#day-16-packet-decoder), I decided to take inspiration from what I did on [Day 13](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem13#day-13-transparent-origami) and look at the input. I then wrote the solution logic on paper.
 
 <details>
   <summary>Solution Logic (Spoilers!)</summary>
@@ -30,7 +30,7 @@ I then used that to find the maximum for Part 1 and the minimum for Part 2.
 
 So for Part 1, I only had to read off the numbers on the right, and for Part 2, I only had to read off the numbers on the left. Note how the colors represent a pair (this makes more sense if you've actually solved the problem).
 
-My verdict for this problem is pretty similar to my verdict from Problem 13, so see if you can spot the differences:
+My verdict for this problem is pretty similar to my verdict from [Problem 13](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem13#day-13-transparent-origami), so see if you can spot the differences:
 
 > I thought this problem was a better version of Problem 13. It was extremely interesting that the input itself was the key to coming up with solution logic, since I'm pretty used to simply importing the file after looking at the first two lines. I think it would've taken me--no, my poor computer--way, way longer to solve this problem had I not looked at the input and figured the math out. Although I still liked Problem 12, this problem is definitely a top favorite. I think I'll simply just swap out 13 with 24.
 
