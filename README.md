@@ -52,7 +52,11 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 - Problem 15
 - Problem 16
 - Problem 19
+- Problem 20
+- Problem 21
+- Problem 22
+- Problem 23
 
 ### Problems to Redo
-- Problem 5 (HashMaps?)
 - Problem 12 (BFS)
+- Problem 24 (solution that doesn't involve pen and paper)
