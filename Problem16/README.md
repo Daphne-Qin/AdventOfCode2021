@@ -6,6 +6,8 @@ Oh gosh, this one was somehow both great and terrible. Terrible because of how l
 ### December 16
 Here was my rant that I wrote on December 16.
 
+---
+
 <details>
   <summary>Rant</summary>
   I started to read the problem at 12 AM, got as far as the literal value explanation, and mentally ran away after 5 minutes.
@@ -20,7 +22,7 @@ Here was my rant that I wrote on December 16.
   <br><br>
   I came home, and I finished my homework pretty quickly (I finished most of it on the way home). Then at 7 PM, I came back to this problem. Even though I'd already tried twice before and couldn't understand it, I still wanted to give my best shot at this problem.
   <br><br>
-  I took notes like a good student. They were colored and everything so that I could visualize everything better, and I drew a partial flowchart for the packet structure algorithm while taking said notes.<sup><a href="#fn1" id="ref1">[1]</a></sup> After I finished taking notes and thinking I understood the problem, it was 8 PM.
+  I took notes like a good student. They were colored and everything so that I could visualize everything better, and I drew a partial flowchart for the packet structure algorithm while taking said notes.<sup><a href="#fn1" id="ref1">1</a></sup> After I finished taking notes and thinking I understood the problem, it was 8 PM.
   <br><br>
   Due to my notes, I had a very good idea of what I wanted my general algorithm to be: recursion through the binary string until the code reached a literal packet.
   <br><br>
@@ -33,11 +35,13 @@ Here was my rant that I wrote on December 16.
   I stopped trying at 11 PM. I started feeling very uncomfortable (yes, me being upset makes me uncomfortable) at around 10:30 PM, and still trucked on. I couldn't understand what I had missed that everyone else had seen, even after having checked the problem description and other people's logic so many times. There have been jokes of my reading comprehension being subpar since I often don't read any instructions carefully, but a part of me wonders if that those jokes tell the truth. After all, this time, I really had read the problem carefully, very carefully.
   <br><br>
   I need a break from AoC.
-
+  <br><br>
   <sup id="fn1">1. Well, it <i>kind of</i> looked like a flowchart to me.<a href="#ref1">↩</a></sup>
 </details>
 
-Here were my notes on the problem (further described in the rant):
+---
+
+And here were my notes on the problem (further described in the rant):
 
 ![image](notes.jpg)
 
