@@ -23,12 +23,13 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 1. *Problem 03 Part 2*: 15m 5.521s (when running a while loop that never incremented and thus could never satisfy the ending condition, corrected code takes <0.3s)
 
 ### Favorite Problems
+Interesting how these are the first three powers of 2, but multiplied by 6.
 1. [**Problem 24**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem24): it could be either very annoying or very interesting to solve, depending on your tastes. You do have to notice quite a few things, though!
 2. [**Problem 12**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem12): a recursion problem, but a nice recursion problem! Seemed scary at the beginning, but got pretty straightforward once I started coding everything out.
 3. [**Problem 06**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem06): simple yet deceptive.
 
 ### Most Annoying Problems
-1. [**Problem 16**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16): I know a lot of people (specifically, Redditors) liked this problem. But this problem made me reread the question for more than four hours and wrecked my confidence in myself (after all, how come everyone else understood the problem and I couldn't understand it after my best shot). And even after all that, I *still* didn't understand the problem. I know the algorithm has simple implementation, I just can't understand the specifics of what I am supposed to do. I have not fully solved this problem yet.
+1. [**Problem 16**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16): I know a lot of people (specifically, Redditors) liked this problem. But this problem made me reread the question for more than four hours and wrecked my confidence in myself (after all, how come everyone else understood the problem and I couldn't understand it after my best shot). And even after all that, I *still* didn't understand the problem. I knew the algorithm had simple implementation, but just couldn't understand the specifics of what I was supposed to do. I finally solved it on December 27 (11 days after I'd initially read the problem).
 2. [**Problem 18**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem18): this took ***forever*** to debug, for both Parts 1 and 2. Also, if you miss one key sentence in the directions... have fun scratching your head at why your code won't work even though your logic seems correct. Also, if you're doing the snail numbers as objects, watch out for shallow copying.
 3. [**Problem 11**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem11): coming up with the solution wasn't easy. Debugging my logic errors was super duper annoying. I *hated* looking through thirty-something maps to check the difference between each iteration (and this was from octopus to octopus, so there were 100 maps per iteration).
 4. [**Problem 04**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04): this took ~2.5h to implement, and I'm pretty sure it would've taken less time to do it by hand.
@@ -50,7 +51,6 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 
 ### Unsolved Problems
 - Problem 15
-- Problem 16
 - Problem 19
 - Problem 20
 - Problem 21
@@ -59,4 +59,3 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 
 ### Problems to Redo
 - Problem 12 (BFS)
-- Problem 24 (solution that doesn't involve pen and paper)
