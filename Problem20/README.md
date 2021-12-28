@@ -1,9 +1,11 @@
 # Day 20: Trench Map
 (I'm writing this on December 28.)
 
-The first thing I thought when I looked at this problem on December 20 was "it's long, it has too many words, I'm not reading this". This might have partially been influenced by my feelings about [Problem 16](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16#december-16). Besides that, I don't really like reading long stuff (unless it's a book). So I noped out.
+The first thing I thought when I looked at this problem on December 20 was "it's long, it has too many words, I'm not reading this". This might have partially been influenced by my feelings about [Problem 16](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16#december-16), but besides that, I don't really like reading long stuff (unless it's a book). So I noped out.
 
-The first thing I thought when I looked at this problem *today* was "It's Hall of Shame time!" ... Yeah, no. This thing ran for a total of 0m 0.418s.
+The first thing I thought when I looked at this problem *today* was "It's [Hall of Shame](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame) time!"
+
+... Yeah, no. Spoiler alert: this thing ran for a total of 0m 0.418s.
 
 Just like for [Problem 21](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem21#day-21-dirac-dice), I really don't have too much to say about the problem itself. It was pretty easy (but tedious) to implement all the methods.
 
