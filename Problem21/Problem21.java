@@ -13,24 +13,44 @@ public class Problem21 {
       startPos[i] = Integer.parseInt( input.nextLine().split(" ")[4] );
     }
 
+    // find answers
     int part1 = part1(startPos);
+    long[] results = winTimes(new int[]{0, startPos[1] * -1}, startPos, 1, 0);
 
     // return answers
     System.out.println("Part 1: " + part1);
-    long[] results = winTimes(new int[]{0,0}, startPos, 0);
-    System.out.println("Part 2: " + Math.min(results[0], results[1]));
-    System.out.println(Arrays.toString(results));
-
+    System.out.println("Part 2: " + Math.max(results[0], results[1]));
   }
 
   //================================================================================
   // RECURSIVE PART 2
   //================================================================================
-  private static long[] winTimes(int[] scores, int[] pos, int turn) {
-    int[][] rolls = new int[][]{{3, 1}, {4, 3}, {5, 6}, {6, 7}, {7, 6}, {8, 3}, {9, 1}};
-    long[] count = new long[]{0,0};
+  private static long[] winTimes(int[] scores, int[] pos, int turn, int currentRoll) {
+    // setup, increments throughout the recursion
+    long[] wins = new long[]{0,0};
 
-    for (int[] roll : rolls) {
+    // move the player and check the scores
+    pos[turn] = (pos[turn] + currentRoll - 1) % 10 + 1;
+    scores[turn] += pos[turn];
+
+    // check if any of the scores are 21
+    if (scores[0] >= 21) {
+      return new long[]{1L, 0L};
+    } else if (scores[1] >= 21) {
+      return new long[]{0L, 1L};
+    }
+
+    // big list of all possible sums and how many ways there are to get each
+    int[][] rolls = new int[][]{{3, 1}, {4, 3}, {5, 6}, {6, 7}, {7, 6}, {8, 3}, {9, 1}};
+
+    // below: setup for recursion, then do recursion itself, then increment the win count and
+    // multiply it by the frequency of the roll
+
+    // find out whose turn it is next
+    turn = (turn == 0) ? 1 : 0;
+
+    // go through each possible sum
+    for (int[] nextRoll : rolls) {
       // clean for each iteration
       int newScores[] = new int[2];
       int newPos[] = new int[2];
@@ -39,20 +59,12 @@ public class Problem21 {
         newPos[i] = pos[i];
       }
 
-      newPos[turn] = (newPos[turn] + roll[0]) % 10;
-      if (newPos[turn] == 0) newPos[turn] = 10;
-      newScores[turn] += newPos[turn];
-
-      if (newScores[turn] >= 21) {
-        count[turn] += roll[1];
-      } else {
-        turn = (turn == 0) ? 1 : 0;
-        long[] results = winTimes(newScores, newPos, turn);
-        count[0] += results[0] * roll[1];
-        count[1] += results[1] * roll[1];
-      }
+      // recursion
+      long[] results = winTimes(newScores, newPos, turn, nextRoll[0]);
+      wins[0] += results[0] * nextRoll[1];
+      wins[1] += results[1] * nextRoll[1];
     }
-    return count;
+    return wins;
   }
 
   //================================================================================
