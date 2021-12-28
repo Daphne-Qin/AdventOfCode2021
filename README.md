@@ -26,6 +26,13 @@ The requirements used to be that the code had to make me worried that nothing wa
 #### Honorable Mentions
 1. [**Problem 03 Part 2**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem03): 15m 5.521s. This happened when running a while loop that never incremented and thus could never satisfy the ending condition. The corrected code takes <0.3s.
 
+### Rant Hall of Fame
+- **Best Rant**: [Problem 18](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem18#day-18-snailfish)
+- **Most Inspirational Rant**: [Problem 15](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem15#december-15)
+- **Saddest Rant**: [Problem 16](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem16#december-16)
+- **Longest Rant**: [Problem 18](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem18#day-18-snailfish)
+- **Shortest Rant**: [Problem 04](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem04#day-4-giant-squid)
+
 ### Favorite Problems
 Interesting how these are the first three powers of 2, but multiplied by 6.
 1. [**Problem 24**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem24): it could be either very annoying or very interesting to solve, depending on your tastes. You do have to notice quite a few things, though!
