@@ -67,8 +67,7 @@ public class Problem21 {
     while (p1.getScore() < 1000 && p1.getScore() < 1000) {
       for (int i = 1; i <= 3; i++) {
         rollCount++;
-        int currentRoll = rollCount % 100;
-        if (currentRoll == 0) currentRoll = 100;
+        int currentRoll = (rollCount - 1) % 100 + 1;
 
         if (playerTurn == 1) p1.move(currentRoll);
         if (playerTurn == 2) p2.move(currentRoll);

@@ -8,8 +8,7 @@ public class Player {
   }
 
   public void move(int roll) {
-    position = (position + roll) % 10;
-    if (position == 0) position = 10;
+    position = (position + roll - 1) % 10 + 1;
   }
 
   public void addScore() {
