@@ -19,8 +19,12 @@ Lastly, there's a README file with my thoughts on the problem at the very top, m
 
 ## Extras
 ### Longest Runtimes Hall of ~~Shame~~ Fame
-*Mainly so I can laugh at myself. I'm surprised there aren't more entries.*
-1. *Problem 03 Part 2*: 15m 5.521s (when running a while loop that never incremented and thus could never satisfy the ending condition, corrected code takes <0.3s)
+*Mainly so I can laugh at myself. I'm surprised there aren't more entries.*\
+The requirements used to be that the code had to make me worried that nothing was happening in the background or that it would take forever (so around 5 minutes or so). However, because there's barely anything on here and everything runs relatively quickly, it's now anything that takes 1 second or longer to finish.
+1. [**Problem 21 Part 2**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem21): 0m 2.482s. The recursion takes a while (after all, it has to go through 77879203 cases, if I'm correct).
+
+#### Honorable Mentions
+1. [**Problem 03 Part 2**](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem03): 15m 5.521s. This happened when running a while loop that never incremented and thus could never satisfy the ending condition. The corrected code takes <0.3s.
 
 ### Favorite Problems
 Interesting how these are the first three powers of 2, but multiplied by 6.
@@ -53,7 +57,6 @@ Interesting how these are the first three powers of 2, but multiplied by 6.
 - Problem 15
 - Problem 19
 - Problem 20
-- Problem 21
 - Problem 22
 - Problem 23
 
