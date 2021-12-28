@@ -13,10 +13,17 @@ public class Problem21 {
       startPos[i] = Integer.parseInt( input.nextLine().split(" ")[4] );
     }
 
+<<<<<<< HEAD
     //int part1 = part1(startPos);
 
     // return answers
     //System.out.println("Part 1: " + part1);
+=======
+    int part1 = part1(startPos);
+
+    // return answers
+    System.out.println("Part 1: " + part1);
+>>>>>>> 8876b7d5b907ee93e0fd604b26c5e9972708593b
     long[] results = winTimes(new int[]{0,0}, startPos, 0);
     System.out.println("Part 2: " + Math.min(results[0], results[1]));
     System.out.println(Arrays.toString(results));
@@ -48,8 +55,13 @@ public class Problem21 {
       } else {
         turn = (turn == 0) ? 1 : 0;
         long[] results = winTimes(newScores, newPos, turn);
+<<<<<<< HEAD
         count[0] += results[0] * roll[1];
         count[1] += results[1] * roll[1];
+=======
+        count[0] += results[0];
+        count[1] += results[1];
+>>>>>>> 8876b7d5b907ee93e0fd604b26c5e9972708593b
       }
     }
     return count;
