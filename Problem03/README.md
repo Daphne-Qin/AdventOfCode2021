@@ -5,9 +5,9 @@ Wrong.
 
 I don't think it was a hard problem. It was just really, really easy to make mistakes, especially during part 2, and especially with a brain that's begging you to go to sleep (I'm not used to staying up past 12).
 
-Part 1 was simple enough, but then came part 2. I first misread the question, so I got the same answer I did for part 1 and didn't question it for some reason. During the same run, I even got to add the first [Hall of Shame](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame) entry for this year. After I reread the question and wrote more code, it took a while for me to realize that I also had another logic error for my edited `gammaEpsilon()` function (and by then, it was around 8 PM).
+Part 1 was simple enough, but then came part 2. I first misread the question, so I got the same answer I did for part 1 and didn't question it for some reason. During the next run, I even got to add the first [Hall of Shame](https://github.com/Daphne-Qin/AdventOfCode2021#longest-runtimes-hall-of-shame-fame) entry for this year.[^1] After I reread the question and wrote more code, it took a while for me to realize that I also had another logic error for my edited `gammaEpsilon()` function (and by then, it was around 8 PM).
 
-I've decided to not stay up until 12 AM again. (Although knowing myself, I'd probably do it again in less than a week.)[^1]
+I've decided to not stay up until 12 AM again. (Although knowing myself, I'd probably do it again in less than a week.)[^2]
 
 Here were my answers:
 | Part 1 | Part 2 |
@@ -78,4 +78,5 @@ Finally, to find the life support rating, multiply the oxygen generator rating (
 
 Use the binary numbers in your diagnostic report to calculate the oxygen generator rating and CO2 scrubber rating, then multiply them together. **What is the life support rating of the submarine?** (Be sure to represent your answer in decimal, not binary.)
 
-[^1]: This proved to be true! I ended up staying up until 12AM on [December 9](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem09#day-9-smoke-basin).
+[^1]: The story behind it: I was running a while loop that never incremented (the rest of the logic inside the while loop was faulty anyway, but that's besides the point). Given the [2015 Hall of Shame entries](https://github.com/Daphne-Qin/AdventOfCode2015#longest-runtimes-hall-of-shame-fame), I thought the code simply needed more time to run, so I just left it to run while I got ready for bed. I was in bed for a few minutes and listening to my computer screaming when I realized that 1000 strings shouldn't take very long to compute. It had been 15m 5.521s by then, so I added it to the Hall of Shame. However, it's since been moved to the Honorable Mentions, since my correct solution took under 0.3 seconds.
+[^2]: This proved to be true! I ended up staying up until 12AM on [December 9](https://github.com/Daphne-Qin/AdventOfCode2021/tree/main/Problem09#day-9-smoke-basin).
